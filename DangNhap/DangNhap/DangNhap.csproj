@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4F11814-B873-439E-BFFA-B2FAF6F7D23B}</ProjectGuid>
+    <ProjectGuid>{3E39C2EC-1A02-4AE7-B59B-9F735B89FC83}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DangNhap</RootNamespace>
