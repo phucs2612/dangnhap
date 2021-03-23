@@ -19,9 +19,11 @@ namespace DangNhap
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUser='admin'&& txtPassword = 'admin')
+            if(txtUser.Text =="admin" && txtPassword.Text=="admin"  )
             {
                 MessageBox.Show("Đăng nhập thành công");
+                Form2 fm = new Form2();
+                fm.Show();
             }
             else
             {
