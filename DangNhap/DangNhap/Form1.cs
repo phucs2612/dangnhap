@@ -16,5 +16,17 @@ namespace DangNhap
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(txtUser='admin'&& txtPassword = 'admin')
+            {
+                MessageBox.Show("Đăng nhập thành công");
+            }
+            else
+            {
+                MessageBox.Show("Đăng nhập Thất bại");
+            }
+        }
     }
 }
